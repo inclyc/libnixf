@@ -228,7 +228,7 @@ const char *Lexer::checkUriStart() {
   // [a-zA-Z][a-zA-Z0-9\+\-\.]*\:[a-zA-Z0-9\%\/\?\:\@\&\=\+\$\,\-\_\.\!\~\*\']+
   //
 
-  // URI, starts with any valid URI scheme char, and must contain colons
+  // URI, starts with any valid URI scheme char, and must contain a colon
   // Here, we look ahead characters, the must be valid path char
   // And also check if it contains a colon.
   const char *UriCursor = Cur;
